@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E02F5982BAA093BE67776EA /* libPods-BeautyTran.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD727D86BB562877CF56B18 /* libPods-BeautyTran.a */; };
+		421A418E20DCDC1D00B09AAC /* horn.png in Resources */ = {isa = PBXBuildFile; fileRef = 421A418D20DCDC1D00B09AAC /* horn.png */; };
+		421A419020DCE3D600B09AAC /* Tran.png in Resources */ = {isa = PBXBuildFile; fileRef = 421A418F20DCE3D600B09AAC /* Tran.png */; };
+		423385FD20DB5A1000F4FA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423385FC20DB5A1000F4FA64 /* AppDelegate.m */; };
+		423385FF20DB5A1100F4FA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423385FE20DB5A1100F4FA64 /* Assets.xcassets */; };
+		4233860220DB5A1100F4FA64 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4233860020DB5A1100F4FA64 /* MainMenu.xib */; };
+		4233860520DB5A1100F4FA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233860420DB5A1100F4FA64 /* main.m */; };
+		4233861020DB5A1100F4FA64 /* BeautyTranTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233860F20DB5A1100F4FA64 /* BeautyTranTests.m */; };
+		4233861B20DB5A1100F4FA64 /* BeautyTranUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233861A20DB5A1100F4FA64 /* BeautyTranUITests.m */; };
+		4233862920DB7DBB00F4FA64 /* HistoryWord.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4233862820DB7DBB00F4FA64 /* HistoryWord.plist */; };
+		4233862D20DB8B5300F4FA64 /* Top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4233862C20DB8B5300F4FA64 /* Top.jpg */; };
+		4233863120DBA0B600F4FA64 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = 4233863020DBA0B600F4FA64 /* result.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4233860C20DB5A1100F4FA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423385F020DB5A1000F4FA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423385F720DB5A1000F4FA64;
+			remoteInfo = BeautyTran;
+		};
+		4233861720DB5A1100F4FA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423385F020DB5A1000F4FA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423385F720DB5A1000F4FA64;
+			remoteInfo = BeautyTran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421A418D20DCDC1D00B09AAC /* horn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horn.png; sourceTree = "<group>"; };
+		421A418F20DCE3D600B09AAC /* Tran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tran.png; sourceTree = "<group>"; };
+		423385F820DB5A1000F4FA64 /* BeautyTran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyTran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423385FB20DB5A1000F4FA64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		423385FC20DB5A1000F4FA64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		423385FE20DB5A1100F4FA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4233860120DB5A1100F4FA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4233860320DB5A1100F4FA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4233860420DB5A1100F4FA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4233860620DB5A1100F4FA64 /* BeautyTran.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeautyTran.entitlements; sourceTree = "<group>"; };
+		4233860B20DB5A1100F4FA64 /* BeautyTranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyTranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4233860F20DB5A1100F4FA64 /* BeautyTranTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyTranTests.m; sourceTree = "<group>"; };
+		4233861120DB5A1100F4FA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4233861620DB5A1100F4FA64 /* BeautyTranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyTranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4233861A20DB5A1100F4FA64 /* BeautyTranUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyTranUITests.m; sourceTree = "<group>"; };
+		4233861C20DB5A1100F4FA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4233862820DB7DBB00F4FA64 /* HistoryWord.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HistoryWord.plist; sourceTree = "<group>"; };
+		4233862C20DB8B5300F4FA64 /* Top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Top.jpg; sourceTree = "<group>"; };
+		4233863020DBA0B600F4FA64 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
+		5DD727D86BB562877CF56B18 /* libPods-BeautyTran.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeautyTran.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD0594253040FD862F7A2D2 /* Pods-BeautyTran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyTran.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautyTran/Pods-BeautyTran.release.xcconfig"; sourceTree = "<group>"; };
+		7C077A19DAF2F658C6F92D1A /* Pods-BeautyTran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyTran.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautyTran/Pods-BeautyTran.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423385F520DB5A1000F4FA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E02F5982BAA093BE67776EA /* libPods-BeautyTran.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4233860820DB5A1100F4FA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4233861320DB5A1100F4FA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4083262D398F45A0E0BC2417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C077A19DAF2F658C6F92D1A /* Pods-BeautyTran.debug.xcconfig */,
+				6FD0594253040FD862F7A2D2 /* Pods-BeautyTran.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		423385EF20DB5A1000F4FA64 = {
+			isa = PBXGroup;
+			children = (
+				423385FA20DB5A1000F4FA64 /* BeautyTran */,
+				4233860E20DB5A1100F4FA64 /* BeautyTranTests */,
+				4233861920DB5A1100F4FA64 /* BeautyTranUITests */,
+				423385F920DB5A1000F4FA64 /* Products */,
+				4083262D398F45A0E0BC2417 /* Pods */,
+				A0F78B0F696E8475488A9410 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		423385F920DB5A1000F4FA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423385F820DB5A1000F4FA64 /* BeautyTran.app */,
+				4233860B20DB5A1100F4FA64 /* BeautyTranTests.xctest */,
+				4233861620DB5A1100F4FA64 /* BeautyTranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423385FA20DB5A1000F4FA64 /* BeautyTran */ = {
+			isa = PBXGroup;
+			children = (
+				421A418F20DCE3D600B09AAC /* Tran.png */,
+				421A418D20DCDC1D00B09AAC /* horn.png */,
+				4233863020DBA0B600F4FA64 /* result.png */,
+				4233862C20DB8B5300F4FA64 /* Top.jpg */,
+				423385FB20DB5A1000F4FA64 /* AppDelegate.h */,
+				423385FC20DB5A1000F4FA64 /* AppDelegate.m */,
+				4233862820DB7DBB00F4FA64 /* HistoryWord.plist */,
+				423385FE20DB5A1100F4FA64 /* Assets.xcassets */,
+				4233860020DB5A1100F4FA64 /* MainMenu.xib */,
+				4233860320DB5A1100F4FA64 /* Info.plist */,
+				4233860420DB5A1100F4FA64 /* main.m */,
+				4233860620DB5A1100F4FA64 /* BeautyTran.entitlements */,
+			);
+			path = BeautyTran;
+			sourceTree = "<group>";
+		};
+		4233860E20DB5A1100F4FA64 /* BeautyTranTests */ = {
+			isa = PBXGroup;
+			children = (
+				4233860F20DB5A1100F4FA64 /* BeautyTranTests.m */,
+				4233861120DB5A1100F4FA64 /* Info.plist */,
+			);
+			path = BeautyTranTests;
+			sourceTree = "<group>";
+		};
+		4233861920DB5A1100F4FA64 /* BeautyTranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4233861A20DB5A1100F4FA64 /* BeautyTranUITests.m */,
+				4233861C20DB5A1100F4FA64 /* Info.plist */,
+			);
+			path = BeautyTranUITests;
+			sourceTree = "<group>";
+		};
+		A0F78B0F696E8475488A9410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD727D86BB562877CF56B18 /* libPods-BeautyTran.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423385F720DB5A1000F4FA64 /* BeautyTran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4233861F20DB5A1100F4FA64 /* Build configuration list for PBXNativeTarget "BeautyTran" */;
+			buildPhases = (
+				4E1E96D65207CA2B37B97BBB /* [CP] Check Pods Manifest.lock */,
+				423385F420DB5A1000F4FA64 /* Sources */,
+				423385F520DB5A1000F4FA64 /* Frameworks */,
+				423385F620DB5A1000F4FA64 /* Resources */,
+				31D2B3772AA3BC4031560046 /* [CP] Embed Pods Frameworks */,
+				473328A7813904EB53D5F782 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautyTran;
+			productName = BeautyTran;
+			productReference = 423385F820DB5A1000F4FA64 /* BeautyTran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4233860A20DB5A1100F4FA64 /* BeautyTranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4233862220DB5A1100F4FA64 /* Build configuration list for PBXNativeTarget "BeautyTranTests" */;
+			buildPhases = (
+				4233860720DB5A1100F4FA64 /* Sources */,
+				4233860820DB5A1100F4FA64 /* Frameworks */,
+				4233860920DB5A1100F4FA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4233860D20DB5A1100F4FA64 /* PBXTargetDependency */,
+			);
+			name = BeautyTranTests;
+			productName = BeautyTranTests;
+			productReference = 4233860B20DB5A1100F4FA64 /* BeautyTranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4233861520DB5A1100F4FA64 /* BeautyTranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4233862520DB5A1100F4FA64 /* Build configuration list for PBXNativeTarget "BeautyTranUITests" */;
+			buildPhases = (
+				4233861220DB5A1100F4FA64 /* Sources */,
+				4233861320DB5A1100F4FA64 /* Frameworks */,
+				4233861420DB5A1100F4FA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4233861820DB5A1100F4FA64 /* PBXTargetDependency */,
+			);
+			name = BeautyTranUITests;
+			productName = BeautyTranUITests;
+			productReference = 4233861620DB5A1100F4FA64 /* BeautyTranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423385F020DB5A1000F4FA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Beauty;
+				TargetAttributes = {
+					423385F720DB5A1000F4FA64 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					4233860A20DB5A1100F4FA64 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 423385F720DB5A1000F4FA64;
+					};
+					4233861520DB5A1100F4FA64 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 423385F720DB5A1000F4FA64;
+					};
+				};
+			};
+			buildConfigurationList = 423385F320DB5A1000F4FA64 /* Build configuration list for PBXProject "BeautyTran" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423385EF20DB5A1000F4FA64;
+			productRefGroup = 423385F920DB5A1000F4FA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423385F720DB5A1000F4FA64 /* BeautyTran */,
+				4233860A20DB5A1100F4FA64 /* BeautyTranTests */,
+				4233861520DB5A1100F4FA64 /* BeautyTranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423385F620DB5A1000F4FA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423385FF20DB5A1100F4FA64 /* Assets.xcassets in Resources */,
+				4233862D20DB8B5300F4FA64 /* Top.jpg in Resources */,
+				421A418E20DCDC1D00B09AAC /* horn.png in Resources */,
+				4233860220DB5A1100F4FA64 /* MainMenu.xib in Resources */,
+				4233862920DB7DBB00F4FA64 /* HistoryWord.plist in Resources */,
+				421A419020DCE3D600B09AAC /* Tran.png in Resources */,
+				4233863120DBA0B600F4FA64 /* result.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4233860920DB5A1100F4FA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4233861420DB5A1100F4FA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D2B3772AA3BC4031560046 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeautyTran/Pods-BeautyTran-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		473328A7813904EB53D5F782 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeautyTran/Pods-BeautyTran-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1E96D65207CA2B37B97BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyTran-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423385F420DB5A1000F4FA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233860520DB5A1100F4FA64 /* main.m in Sources */,
+				423385FD20DB5A1000F4FA64 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4233860720DB5A1100F4FA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233861020DB5A1100F4FA64 /* BeautyTranTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4233861220DB5A1100F4FA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233861B20DB5A1100F4FA64 /* BeautyTranUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4233860D20DB5A1100F4FA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423385F720DB5A1000F4FA64 /* BeautyTran */;
+			targetProxy = 4233860C20DB5A1100F4FA64 /* PBXContainerItemProxy */;
+		};
+		4233861820DB5A1100F4FA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423385F720DB5A1000F4FA64 /* BeautyTran */;
+			targetProxy = 4233861720DB5A1100F4FA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4233860020DB5A1100F4FA64 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4233860120DB5A1100F4FA64 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4233861D20DB5A1100F4FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4233861E20DB5A1100F4FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4233862020DB5A1100F4FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C077A19DAF2F658C6F92D1A /* Pods-BeautyTran.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = BeautyTran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.BeautyTran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4233862120DB5A1100F4FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD0594253040FD862F7A2D2 /* Pods-BeautyTran.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = BeautyTran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.BeautyTran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4233862320DB5A1100F4FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = BeautyTranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.BeautyTranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyTran.app/Contents/MacOS/BeautyTran";
+			};
+			name = Debug;
+		};
+		4233862420DB5A1100F4FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = BeautyTranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.BeautyTranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyTran.app/Contents/MacOS/BeautyTran";
+			};
+			name = Release;
+		};
+		4233862620DB5A1100F4FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = BeautyTranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.BeautyTranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautyTran;
+			};
+			name = Debug;
+		};
+		4233862720DB5A1100F4FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = BeautyTranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.BeautyTranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautyTran;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423385F320DB5A1000F4FA64 /* Build configuration list for PBXProject "BeautyTran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4233861D20DB5A1100F4FA64 /* Debug */,
+				4233861E20DB5A1100F4FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4233861F20DB5A1100F4FA64 /* Build configuration list for PBXNativeTarget "BeautyTran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4233862020DB5A1100F4FA64 /* Debug */,
+				4233862120DB5A1100F4FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4233862220DB5A1100F4FA64 /* Build configuration list for PBXNativeTarget "BeautyTranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4233862320DB5A1100F4FA64 /* Debug */,
+				4233862420DB5A1100F4FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4233862520DB5A1100F4FA64 /* Build configuration list for PBXNativeTarget "BeautyTranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4233862620DB5A1100F4FA64 /* Debug */,
+				4233862720DB5A1100F4FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423385F020DB5A1000F4FA64 /* Project object */;
+}

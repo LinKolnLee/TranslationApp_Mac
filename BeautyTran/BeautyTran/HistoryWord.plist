@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>query</key>
+		<string>戴眼镜的男孩</string>
+		<key>result</key>
+		<string>The boy with a pair of glasses</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>程序员是谁</string>
+		<key>result</key>
+		<string>The programmer who is</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>alternate</string>
+		<key>result</key>
+		<string>备用</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>铭记</string>
+		<key>result</key>
+		<string>铭记</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>铭记</string>
+		<key>result</key>
+		<string>remember</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>翻译</string>
+		<key>result</key>
+		<string>translation</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>话筒</string>
+		<key>result</key>
+		<string>话筒</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>话筒</string>
+		<key>result</key>
+		<string>microphone</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>喇叭</string>
+		<key>result</key>
+		<string>The horn</string>
+	</dict>
+	<dict>
+		<key>query</key>
+		<string>历史记录</string>
+		<key>result</key>
+		<string>The historical record</string>
+	</dict>
+</array>
+</plist>
